@@ -31,20 +31,6 @@ Bu proje, bir envanter yönetim sistemi uygulamasını içerir. Uygulama, ürün
 
 SQL Server Management Studio veya benzeri bir araç kullanarak `inventory_db` adlı bir veritabanı oluşturun.
 
-**Veritabanı Kurulumu**
-
-   SQL Server'da bir veritabanı oluşturun ve aşağıdaki `products` tablosunu oluşturun:
-
-   ```sql
-   CREATE TABLE products (
-       id INT PRIMARY KEY NULL,
-       name NVARCHAR(100) NOT NULL,
-       category NVARCHAR(100) NOT NULL,
-       quantity INT NOT NULL,
-       price FLOAT NOT NULL,
-       expiry_date DATE NOT NULL
-   );
-
 ## 3. Veritabanı Yapılandırması
 
 `DBConnection` sınıfındaki `URL` değişkenini kendi veritabanı yapılandırmanıza göre güncelleyin. Örneğin, sunucu adı, veritabanı adı ve bağlantı ayarlarını kendi SQL Server ortamınıza uygun şekilde düzenleyin.
