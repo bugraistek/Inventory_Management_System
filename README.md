@@ -32,8 +32,8 @@ Bu proje, bir envanter yönetim sistemi uygulamasını içerir. Uygulama, ürün
 SQL Server Management Studio veya benzeri bir araç kullanarak `inventory_db` adlı bir veritabanı oluşturun.
 
 Bu veritabanında aşağıdaki `products` tablosunu oluşturun:
-   ```sql
-   CREATE TABLE products (
+     
+    CREATE TABLE products (
        id INT PRIMARY KEY NULL,
        name NVARCHAR(100) NOT NULL,
        category NVARCHAR(100) NOT NULL,
